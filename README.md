@@ -3,7 +3,10 @@
 ## Intro
 GenderPerformr is the model release from the paper `It’s going to be okay: Measuring Access to Support in Online Communities` by Zijian Wang and David Jurgens (in proceedings of EMNLP 2018).
 
-It is the current state-of-the-art method that predicts gender from usernames based on a LSTM model built in PyTorch (as of Sept. 2018). 
+It is the current state-of-the-art method that predicts gender from usernames based on a LSTM model built in PyTorch (as of Sept. 2018).
+
+See the [project website](http://blablablab.si.umich.edu/projects/support) for full details, including contact information.
+ 
 ## Install 
 
 ### Use pip
