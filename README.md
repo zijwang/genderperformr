@@ -36,8 +36,8 @@ which takes a single username of a list of usernames, and returns a tuple of raw
 You may directly import `genderperformr` and use the default predict method, e.g.:
 
     >>> import genderperformr
-    >>> genderperformr.predict("BackRowJoe123")
-    (0.08830917, 'M')
+    >>> genderperformr.predict("AdamMcAdamson")
+    (0.019139649, 'M')
     
 ### Construct from class
 Alternatively, you may also construct the object from class, where you could customize the model path and device:
@@ -46,13 +46,13 @@ Alternatively, you may also construct the object from class, where you could cus
 	>>> gp = GenderPerformr()
 	
 	# Predict a single username
-	>>> gp.predict("Tom")
-	(0.059030112, 'M')
+	>>> gp.predict("John")
+	(0.087956183, 'M')
 	
 	# Predict a list of names
-	>>> probs, labels = gp.predict(["BarryCA67", "PizzaMagic", "KatieZ22"])
+	>>> probs, labels = gp.predict(["BarryCA67", "pizzamagic", "KatieZ22"])
     >>> f"Raw probabilities are {probs}"
-    Raw probabilities are [0.05770278 0.45214835 0.96221727]
+    Raw probabilities are [0.03398224 0.5439474 0.93964571]
     >>> f"Labels are {labels}"
     Labels are ['M', 'N', 'F']
 
