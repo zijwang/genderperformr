@@ -16,7 +16,7 @@ class GenderPerformrModel(nn.Module):
                  ):
         super(GenderPerformrModel, self).__init__()
         self.batch_size = batch_size
-        self.is_bidirection = is_bidirection
+        self.is_bidirection = True if is_bidirection == 1 else False
         self.emb_out_size = emb_out_size
         self.lstm_hidden_size = lstm_hidden_size
         self.lstm_layers = lstm_layers

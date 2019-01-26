@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="genderperformr",
-    version="1.0",
+    version="1.1",
     author="Zijian Wang and David Jurgens",
     author_email="zijwang@stanford.edu",
     description="GenderPerformr",
