@@ -1,5 +1,5 @@
 import torch
-from torch.utils.data import *
+from torch.utils.data import Dataset
 from .data.consts import *
 from .utils import *
 
